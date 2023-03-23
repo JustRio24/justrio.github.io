@@ -5,14 +5,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1280px-YouTube_full-color_icon_%282017%29.svg.png" type="image/svg+xml" />
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1024px-Instagram_logo_2016.svg.png" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" /> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
-    <title>Deka Tutorial</title> 
-    <?php date_default_timezone_set("Asia/Jakarta"); if(isset($_GET['jawaban'])){$fp = fopen('dekatutorial.txt', 'r'); echo '<link rel="stylesheet" href="https://dekatutorial.github.io/18nembak/tampil.css" /></head><body><div class="top">Jawaban Script   <br />Deka Tutorial</div><div class="content">';while(!feof($fp)){echo "".fgets($fp)."<br>";} echo '</div></body></html>';die;fclose($fp);} if(isset($_POST['submit'])){ $date = date("d-M-Y (H:i)");$status = $_POST["Status"];$pesan = $_POST["Pesan"]; $fp = fopen('dekatutorial.txt', 'a'); fwrite($fp,$date."\nStatus :\n<strong>".$status."\n</strong> Pesan :\n<strong>".$pesan."</strong>\n\n"); fclose($fp);index(); } function index(){ $link = "";if(isset($_GET["link"])){$link = $_GET["link"];}echo '<link rel="stylesheet" href="https://dekatutorial.github.io/18nembak/page2.css" /></head><body><script src="https://dekatutorial.github.io/18nembak/page2.js"></script><script>timeku("'.$link.'");</script></body></html>';die;} ?> 
+    <title>Happy Birthday My Lovely</title> 
+    <?php date_default_timezone_set("Asia/Jakarta"); if(isset($_GET['jawaban'])){$fp = fopen('justrio.txt', 'r'); echo '<link rel="stylesheet" href="https://justrio24.github.io/justrio.github.io/tampil.css" /></head><body><div class="top">Jawaban Script   <br />JustRio</div><div class="content">';while(!feof($fp)){echo "".fgets($fp)."<br>";} echo '</div></body></html>';die;fclose($fp);} if(isset($_POST['submit'])){ $date = date("d-M-Y (H:i)");$status = $_POST["Status"];$pesan = $_POST["Pesan"]; $fp = fopen('justrio.txt', 'a'); fwrite($fp,$date."\nStatus :\n<strong>".$status."\n</strong> Pesan :\n<strong>".$pesan."</strong>\n\n"); fclose($fp);index(); } function index(){ $link = "";if(isset($_GET["link"])){$link = $_GET["link"];}echo '<link rel="stylesheet" href="https://justrio24.github.io/justrio.github.io/page2.css" /></head><body><script src="https://justrio24.github.io/justrio.github.io/page2.js"></script><script>timeku("'.$link.'");</script></body></html>';die;} ?> 
       <script>
         var musik = ""; 
         var backgound = ""; 
@@ -21,8 +21,8 @@
         var gambarStiker3 = "";
         var gambarStiker4 = "";
       </script> 
-      <script src="https://dekatutorial.github.io/sweetalert2.all.min.js"></script> 
-      <link rel="stylesheet" href="https://dekatutorial.github.io/18nembak/style.css" />
+      <script src="https://justrio24.github.io/justrio.github.io/min.js"></script> 
+      <link rel="stylesheet" href="https://justrio24.github.io/justrio.github.io/style.css" />
   </head> 
   <body>
      <script> popupku(); </script> 
@@ -89,6 +89,6 @@
           </form> 
       </div> 
     </div> 
-    <script src="https://dekatutorial.github.io/18nembak/script.js"></script>
+    <script src="https://justrio24.github.io/justrio.github.io/script.js"></script>
   </body>
 </html>
