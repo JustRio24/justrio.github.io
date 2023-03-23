@@ -59,6 +59,7 @@ btnPesan.setAttribute("onclick", "modalPesan()");
 var ucapanz = document.querySelector(".ucapan");
 var ucapan1 = document.querySelectorAll("#slider")[0];
 var ucapan2 = document.querySelectorAll("#slider")[1];
+var ucapan3 = document.querySelectorAll("#slider")[2];
 
 var ucapan = document.querySelector("#slider").children;
 
@@ -196,10 +197,12 @@ var stiker = document.querySelector(".stiker");
 var stiker1 = document.querySelector(".stiker").children[0];
 var stiker2 = document.querySelector(".stiker").children[1];
 var stiker3 = document.querySelector(".stiker").children[2];
+var stiker4 = document.querySelector(".stiker").children[3];
 
 stiker1.src = gambarStiker1;
 stiker2.src = gambarStiker2;
 stiker3.src = gambarStiker3;
+stiker4.src = gambarStiker4;
 
 // stiker2.style = "display: none";
 // stiker3.style = "display: none";
