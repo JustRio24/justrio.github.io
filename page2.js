@@ -1,5 +1,5 @@
 var html =
-  '<div class="banner"><p>Happy Legal Day</p><a href="https://www.instagram.com/justrio.24/"><img src="https://justrio24.github.io/justrio.github.io/yay-couple.gif" height="1280px" width="720px" alt="" /></a></div>';
+  '<div class="banner"><p>Happy Legal Day</p><a href="https://www.instagram.com/justrio.24/"><img src="https://justrio24.github.io/justrio.github.io/Mozaik.jpg" height="auto" width="auto" alt="" /></a></div>';
 
 document.querySelector("body").innerHTML += html;
 
